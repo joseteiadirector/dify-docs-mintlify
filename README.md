@@ -1,58 +1,46 @@
-## 📘 Dify Documentation (Mintlify Edition)
+📘 Atividade Avaliativa — Regressão Linear Robusta (RLM)
+Este repositório contém o notebook desenvolvido como parte da disciplina Aprendizado de Máquina Supervisionado, utilizando Python e a biblioteca Statsmodels.
 
-Welcome to the documentation repository for Dify.
+🎯 Objetivo
+Aplicar o modelo RLM (Robust Linear Model) para realizar regressão linear menos sensível a outliers, comparando valores reais e previstos, além da análise dos resíduos.
 
-We warmly welcome your contributions — whether it’s proofreading, fixing typos, or submitting new content. Please feel free to open issues or PRs if you find anything that could be improved!
+🧭 Área de Tecnologia
+Este trabalho pertence à área de:
 
-⸻
+Ciência de Dados (Data Science)
 
-## 🚀 Project Overview
+Aprendizado de Máquina (Machine Learning)
 
-This project uses the Mintlify Kit to build and serve modern, developer-friendly documentation.
+Estatística Aplicada com Python
 
-⸻
+Subárea: Modelos Supervisionados de Regressão
 
-## 🛠️ Local Development
+🛠️ Ferramentas Utilizadas
+Python 3
 
-To preview and develop documentation locally:
+Google Colab
 
-1. Install the Mintlify CLI
+Bibliotecas:
 
-```bash
-npm i -g mintlify
-```
+statsmodels (ajuste do modelo robusto)
 
-2. Start local development
+matplotlib e seaborn (visualização)
 
-Run this command at the root of your project (where docs.json is located):
+📊 Conteúdo do Notebook
+Carregamento e preparação dos dados (stackloss dataset).
 
-```bash
-mintlify dev
-```
+Ajuste do modelo RLM com função de perda HuberT.
 
-⸻
+Geração de previsões.
 
-## 🙌 Contributing
+Gráficos de análise:
 
-Your help in reviewing, editing, and expanding the documentation is truly appreciated.
+Valores Reais vs. Valores Previstos
 
-### 📝 Contribution Workflow
+Resíduos vs. Valores Previstos
 
-1. Fork this repository to your own GitHub account.
-2. Create a new branch based on the `main` branch.
-3. Start the local development server following the steps above to preview your changes live.
-4. Make your edits or write new content in the appropriate file under the content/ directory.
-5. Submit a Pull Request (PR) after verifying your changes:
+Conclusão sobre robustez do modelo em presença de outliers.
 
-	• If you’ve added new pages or sections, don’t forget to update docs.json to include them in the sidebar navigation.
-	• We welcome tri-lingual contributions (English, Simplified Chinese, Japanese) — contribute in one or more languages if possible.
-
-Please submit PRs to this repository instead of the legacy one: 📘 https://github.com/langgenius/dify-docs
-
-Thanks again for being part of Dify’s documentation journey!
-
-⸻
-
-## 📄 License
-
-The Dify product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
+✍️ Autor
+José Enrique Vásquez Valenzuela
+RA: 2025113479
